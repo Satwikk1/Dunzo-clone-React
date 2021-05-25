@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+/* my modifications  */
+.location-indicator {
+  color: rgb(0, 210, 148);
+  font-size: small;
+  padding-top: 3px;
+}
+
+.location-indicator:hover {
+  color: rgb(0, 210, 148);
+}
+
+.location-indicator-header {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.image-border {
+  border-radius: 1em;
+}
+
+.in-div {
+  background-color: red;
+  position: absolute;
+  font-size: 0.6em;
+  color: white;
+  font-weight: bold;
+  margin: 0em;
+  padding: 0em;
+  right: 1.9em;
+  padding: 0em 0.3em;
+  border-bottom-left-radius: 0.5em;
+  border-top-right-radius: 0.8em;
+}
+.lower-in-div {
+  background-color: red;
+  position: absolute;
+  font-size: 0.8em;
+  color: white;
+  font-weight: bold;
+  /* margin: 0em; */
+  padding: 0.2em 0.3em;
+  right: -3.8em;
+  top: -3.7em;
+  /* padding: 0em 0.3em; */
+  border-bottom-left-radius: 0.3em;
+  /* border-top-right-radius: 0.8em; */
+}
+
+.custom-class {
+  color: rgb(111, 116, 138);
+  font-size: 1em;
+  padding-top: 0.3em;
+  /* padding-bottom: 0.3em; */
+}
+.custom-class:hover {
+  color: rgb(111, 116, 138);
+}
+
+.footer {
+  margin-top: 4em;
+  padding-top: 4.5em;
+  padding-bottom: 5em;
+  background-color: rgb(23, 29, 49);
+}
+
+.sub-footer {
+  border-bottom: 1px solid rgb(111, 116, 138);
+}

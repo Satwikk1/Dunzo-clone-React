@@ -1,0 +1,8 @@
+.navbarTextStyle {
+  color: "rgb(0, 0, 0)";
+  border: 0px;
+}
+
+.navbarTextStyle:hover {
+  color: rgb(0, 210, 148);
+}
